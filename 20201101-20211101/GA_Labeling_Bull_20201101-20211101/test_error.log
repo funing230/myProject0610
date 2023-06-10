@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "C:/Users/ssel512/PycharmProjects/Assemble_Crypto_Pair_Trading/0518/GA_based_labeling.py", line 239, in <module>
+    model.training()
+  File "C:/Users/ssel512/PycharmProjects/Assemble_Crypto_Pair_Trading/0518/GA_based_labeling.py", line 135, in training
+    self.optimizer = GA.BaseGA(self.problem, GAepoch=self.GA_epoch,pop_size=self.pop_size, pc=0.8, pm=0.3)
+  File "D:\anaconda3\envs\torchGpu\lib\site-packages\mealpy\evolutionary_based\GA.py", line 84, in __init__
+    self.epoch = self.validator.check_int("epoch", epoch, [1, 100000])
+  File "D:\anaconda3\envs\torchGpu\lib\site-packages\mealpy\utils\validator.py", line 54, in check_int
+    raise ValueError(f"'{name}' is an integer {bound}.")
+ValueError: 'epoch' is an integer and value should be in range: [1, 100000].
+Traceback (most recent call last):
+  File "C:/Users/ssel512/PycharmProjects/Assemble_Crypto_Pair_Trading/0518/GA_based_labeling.py", line 260, in <module>
+    model.training()
+  File "C:/Users/ssel512/PycharmProjects/Assemble_Crypto_Pair_Trading/0518/GA_based_labeling.py", line 138, in training
+    self.optimizer = GA.BaseGA(self.problem, GAepoch=self.GA_epoch,pop_size=self.pop_size, pc=0.8, pm=0.3)
+  File "D:\anaconda3\envs\torchGpu\lib\site-packages\mealpy\evolutionary_based\GA.py", line 84, in __init__
+    self.epoch = self.validator.check_int("epoch", epoch, [1, 100000])
+  File "D:\anaconda3\envs\torchGpu\lib\site-packages\mealpy\utils\validator.py", line 54, in check_int
+    raise ValueError(f"'{name}' is an integer {bound}.")
+ValueError: 'epoch' is an integer and value should be in range: [1, 100000].
+Traceback (most recent call last):
+  File "C:\Users\ssel512\PycharmProjects\Assemble_Crypto_Pair_Trading\0518\GA_based_labeling.py", line 260, in <module>
+    model.training()
+  File "C:\Users\ssel512\PycharmProjects\Assemble_Crypto_Pair_Trading\0518\GA_based_labeling.py", line 138, in training
+    self.optimizer = GA.BaseGA(self.problem, GAepoch=self.GA_epoch,pop_size=self.pop_size, pc=0.8, pm=0.3)
+  File "D:\anaconda3\envs\tensor2\lib\site-packages\mealpy\evolutionary_based\GA.py", line 85, in __init__
+    self.epoch = self.validator.check_int("epoch", epoch, [1, 100000])
+NameError: name 'epoch' is not defined
+Traceback (most recent call last):
+  File "C:/Users/ssel512/PycharmProjects/Assemble_Crypto_Pair_Trading/0518/GA_based_labeling.py", line 282, in <module>
+    model.training()
+  File "C:/Users/ssel512/PycharmProjects/Assemble_Crypto_Pair_Trading/0518/GA_based_labeling.py", line 150, in training
+    self.optimizer = GA.BaseGA(self.problem, GAepoch=self.GA_epoch,pop_size=self.pop_size, pc=0.8, pm=0.3)
+  File "D:\anaconda3\envs\torchGpu\lib\site-packages\mealpy\evolutionary_based\GA.py", line 84, in __init__
+    self.epoch = self.validator.check_int("epoch", epoch, [1, 100000])
+  File "D:\anaconda3\envs\torchGpu\lib\site-packages\mealpy\utils\validator.py", line 54, in check_int
+    raise ValueError(f"'{name}' is an integer {bound}.")
+ValueError: 'epoch' is an integer and value should be in range: [1, 100000].
+Traceback (most recent call last):
+  File "C:/Users/ssel512/PycharmProjects/newtest/0605/GA_based_labeling.py", line 282, in <module>
+    model.training()
+  File "C:/Users/ssel512/PycharmProjects/newtest/0605/GA_based_labeling.py", line 150, in training
+    self.optimizer = GA.BaseGA(self.problem, GAepoch=self.GA_epoch,pop_size=self.pop_size, pc=0.8, pm=0.3)
+  File "D:\anaconda3\envs\torchGpu\lib\site-packages\mealpy\evolutionary_based\GA.py", line 84, in __init__
+    self.epoch = self.validator.check_int("epoch", epoch, [1, 100000])
+  File "D:\anaconda3\envs\torchGpu\lib\site-packages\mealpy\utils\validator.py", line 54, in check_int
+    raise ValueError(f"'{name}' is an integer {bound}.")
+ValueError: 'epoch' is an integer and value should be in range: [1, 100000].
