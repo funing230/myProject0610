@@ -234,7 +234,7 @@ ax.xaxis.set_major_locator(plt.MaxNLocator(20))
 # plt.plot(pt_out_pair_trading, label='Cumulative return on P-Trading Strategy portfolio',color='b')
 
 plt.plot(predict_port_outa_for_lable, label='-----Machine Learning Prediction-------',color='b')
-plt.plot(port_outa_for_lable, label='triple barrier method ',color='r')
+# plt.plot(port_outa_for_lable, label='triple barrier method ',color='r')
 plt.plot(port_outa_pair_trading, label='Cumulative return on P-Trading Strategy',color='y')
 # plt.plot(pt_outc, label='Cumulative return on P-Trading Strategy_+5%Cm')
 plt.plot(bh_btc_test, label='Cumulative return on Buy and Hold Bitcoin',color='g')
